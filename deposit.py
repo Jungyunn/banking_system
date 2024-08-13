@@ -5,7 +5,7 @@ def deposit_money():
     deposit_money = int(input("입금액: "))
 
     for i in range(len(account_list)):
-        if account_id == account_list[i]:
+        if account_id == account_list[i].account_id:
             account_list[i].balance += deposit_money
             print("입금완료")
             return

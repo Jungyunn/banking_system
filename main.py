@@ -9,8 +9,8 @@ from withdraw import *
 def main():
     """Main function to run the banking system."""
     while True:
-        show_menu() # ok
-        choice = menu_input() # ok
+        show_menu() 
+        choice = menu_input()
         print()
 
         if choice == 1:
