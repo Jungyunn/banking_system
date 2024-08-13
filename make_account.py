@@ -1,4 +1,5 @@
 from account import Account
+from account_list import AccountList
 
 def make_account():
     print("[계좌 개설]")
@@ -9,6 +10,6 @@ def make_account():
     if user_money.isdecimal():
         user_money = int(user_money)
     
-    account_list.append(Account(user_id, user_name, user_money))
+    AccountList.account_list.append(Account(user_id, user_name, user_money))
     
-    return account_list
+    return AccountList.account_list

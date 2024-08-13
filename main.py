@@ -1,14 +1,9 @@
-account_list = []
-num_of_accounts = 0
-
 from account import Account
 from make_account import make_account
 from menu_input import show_menu, menu_input
 from show_all_info import show_all_account_information
 from deposit import *
 from withdraw import *
-
-
 
 
 def main():
