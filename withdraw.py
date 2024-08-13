@@ -1,6 +1,6 @@
 def withdraw_money():
-    account_id = int(input())
-    withdraw_money_ = int(input())
+    account_id = int(input("계좌ID: "))
+    withdraw_money_ = int(input("출금액: "))
 
     for i in range(len(account_list)):
         if account_id == account_list[i]:

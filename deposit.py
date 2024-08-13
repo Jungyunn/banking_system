@@ -1,6 +1,6 @@
 def deposit_money():
-    account_id = int(input())
-    deposit_money = int(input())
+    account_id = int(input("계좌ID: "))
+    deposit_money = int(input("입금액: "))
 
     for i in range(len(account_list)):
         if account_id == account_list[i]:
